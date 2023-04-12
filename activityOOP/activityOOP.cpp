@@ -24,3 +24,10 @@ void mahasiswa::printData() {
 	cout << "\nNama: " << nama;
 	cout << "\nNilai: " << nilai;
 }
+
+class mataKuliah {
+private:
+	string kode;
+	string namaMK;
+	int sks;
+};
